@@ -1,6 +1,8 @@
 # InCarInventory
 
-InCarInventory is a DayZ PC mod that lets you use your personal inventory and the inventory of the vehicle you occupy without leaving your seat.
+DayZ mod that lets players access their inventory and the occupied vehicle’s cargo and attachments while seated.
+
+[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3693164249)
 
 ## Features
 
@@ -20,11 +22,13 @@ Version 1.2 was tested on DayZ 1.30. The test confirmed item transfers while sea
 2. For a dedicated server, place the packaged mod in its own folder, such as `@InCarInventory`. Copy the included public `.bikey` to the server's `keys` directory when signature verification is enabled.
 3. Add `@InCarInventory` to the server's existing `-mod` list and restart the server. Clients must load the matching mod version before joining.
 
-The GitHub repository contains source files. To build locally with DayZ Tools, pack `addons/InCarInventory` using the `InCarInventory` PBO prefix, then put the PBO in the packaged mod's `addons` directory alongside the package's root metadata. Sign your local build with your own key if your server requires signatures.
-
 ## Usage
 
 Enter a supported vehicle and open your inventory with **Tab** on the default PC controls. Find the vehicle in the vicinity panel and expand its cargo or attachment categories. Use the normal inventory controls to move items.
+
+## Build from source
+
+With DayZ Tools, pack `addons/InCarInventory` using the `InCarInventory` PBO prefix, then put the PBO in the packaged mod's `addons` directory alongside the package's root metadata. Sign your local build with your own key if your server requires signatures.
 
 ## Source layout
 
