@@ -1,0 +1,9 @@
+name = "InCarInventory";
+picture = "mod_icon.paa";
+logo = "mod_icon.paa";
+logoOver = "mod_icon.paa";
+tooltip = "Use inventory inside vehicles";
+overview = "Allows players to manage inventory while inside vehicles.";
+action = "";
+author = "You";
+version = "1.2";

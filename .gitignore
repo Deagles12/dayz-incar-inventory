@@ -1,0 +1,57 @@
+# DayZ build output and binary signing files
+*.pbo
+*.bisign
+*.bikey
+*.biprivatekey
+*.bin
+/build/
+/dist/
+/release/
+/outputs/
+/work/
+/temp/
+/tmp/
+/keys/
+*.zip
+*.7z
+
+# Logs, runtime state and caches
+*.log
+*.rpt
+*.mdmp
+*.ADM
+/profiles/
+/storage_*/
+.cache/
+__pycache__/
+
+# Local tooling and publication workflow
+/.github/workflows/
+/pipeline/
+/pipelines/
+/publish/
+/tools/
+/scripts/
+*.bat
+*.ps1
+steam_appid.txt
+
+# Local configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+credentials*.json
+secrets*.json
+serverDZ*.cfg
+
+# Editors and OS metadata
+.vscode/
+.idea/
+.vs/
+*.swp
+Thumbs.db
+Desktop.ini
+.DS_Store
