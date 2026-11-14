@@ -35,3 +35,8 @@ Enter a supported vehicle and open your inventory with **Tab** on the default PC
 - `scripts/5_Mission/MissionGameplay.c` logs inventory opening and vehicle visibility for troubleshooting.
 
 The inventory UI includes adaptations from [Bohemia Interactive's DayZ-Script-Diff](https://github.com/BohemiaInteractive/DayZ-Script-Diff). DayZ and the original game scripts are by Bohemia Interactive.
+
+## License
+
+InCarInventory is distributed under the [DayZ Public License](LICENSE). The
+license requires attribution and limits use to noncommercial purposes in DayZ.

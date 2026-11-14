@@ -1,0 +1,16 @@
+# DayZ Public License (DPL)
+
+Copyright 2026 Deagles (InCarInventory contributions).
+
+InCarInventory is distributed under the DayZ Public License (DPL).
+The full license terms are available at:
+https://www.bohemia.net/en/licenses/dayz-public-license-dpl
+
+Portions of addons/InCarInventory/scripts/5_Mission/ICI_VehicleVisibility.c
+are adapted from the AttachmentCategoriesContainer and CargoContainer
+implementations in Bohemia Interactive's DayZ-Script-Diff:
+https://github.com/BohemiaInteractive/DayZ-Script-Diff
+
+Original DayZ code copyright 2022 Bohemia Interactive a.s.
+The adaptations change how the occupied vehicle's cargo and attachment
+categories are displayed. Bohemia Interactive does not endorse this mod.
